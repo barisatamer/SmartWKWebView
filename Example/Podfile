@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SmartWKWebView_Example' do
+  pod 'SmartWKWebView', :path => '../'
+
+  target 'SmartWKWebView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
