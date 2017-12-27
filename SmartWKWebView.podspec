@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/barisatamer/SmartWKWebView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://github.com/barisatamer/SmartWKWebView/blob/master/imgs/demo.gif?raw=true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'barisatamer' => 'brsatamer@gmail.com' }
   s.source           = { :git => 'https://github.com/barisatamer/SmartWKWebView.git', :tag => s.version.to_s }

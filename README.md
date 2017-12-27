@@ -8,6 +8,9 @@ A WKWebView modal to show web pages, providing close button, title and url label
 
 Inspired by Instagram's web page component.
 
+![demo](https://github.com/barisatamer/SmartWKWebView/blob/master/imgs/demo.gif?raw=true)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
