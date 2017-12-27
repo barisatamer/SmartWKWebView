@@ -1,0 +1,6 @@
+framework module SmartWKWebView {
+  umbrella header "SmartWKWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

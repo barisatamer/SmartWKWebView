@@ -1,15 +1,23 @@
 # SmartWKWebView
 
-[![CI Status](http://img.shields.io/travis/barisatamer/SmartWKWebView.svg?style=flat)](https://travis-ci.org/barisatamer/SmartWKWebView)
 [![Version](https://img.shields.io/cocoapods/v/SmartWKWebView.svg?style=flat)](http://cocoapods.org/pods/SmartWKWebView)
 [![License](https://img.shields.io/cocoapods/l/SmartWKWebView.svg?style=flat)](http://cocoapods.org/pods/SmartWKWebView)
 [![Platform](https://img.shields.io/cocoapods/p/SmartWKWebView.svg?style=flat)](http://cocoapods.org/pods/SmartWKWebView)
+
+A WKWebView modal to show web pages, providing close button, title and url labels. Written in Swift.
+
+Inspired by Instagram's web page component.
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* Xcode 9 or higher
+* iOS 9.0 or higher
+* Swift 4.0
+
 
 ## Installation
 
@@ -19,6 +27,20 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SmartWKWebView'
 ```
+
+## Usage
+
+### Simple
+
+```swift
+import SmartWKWebView
+
+let vc = SmartWKWebViewController()
+vc.url = URL(string: "http://www.google.com/en")
+present(vc, animated: true)
+```
+
+
 
 ## Author
 

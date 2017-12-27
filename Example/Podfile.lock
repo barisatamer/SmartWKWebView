@@ -1,0 +1,16 @@
+PODS:
+  - SmartWKWebView (0.1.0)
+
+DEPENDENCIES:
+  - SmartWKWebView (from `../`)
+
+EXTERNAL SOURCES:
+  SmartWKWebView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SmartWKWebView: 8c9a669ceff01a09d3d44c9aab71079f31230f40
+
+PODFILE CHECKSUM: bb83ddba5e21aad69413a9986d86876be477ec8b
+
+COCOAPODS: 1.3.1
