@@ -19,6 +19,7 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     public var stringLoading = "Loading"
     public var url: URL!
     public var webView: WKWebView!
+	var delegate: SmartWKWebViewControllerDelegate?
     var toolbar: SmartWKWebViewToolbar!
     
     
@@ -123,7 +124,9 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     
     private func dismiss() {
         OperationQueue.main.addOperation {
-            self.dismiss(animated: true, completion: nil)
+			self.dismiss(animated: true, completion: {
+				self.delegate?.didDismiss(viewController: self)
+			})
         }
     }
     
@@ -169,4 +172,8 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
             webView.scrollView.contentOffset.y = 0
         }
     }
+}
+
+protocol SmartWKWebViewControllerDelegate {
+	func didDismiss(viewController: SmartWKWebViewController)
 }
