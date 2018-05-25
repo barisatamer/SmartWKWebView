@@ -19,7 +19,7 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     public var stringLoading = "Loading"
     public var url: URL!
     public var webView: WKWebView!
-	var delegate: SmartWKWebViewControllerDelegate?
+	public var delegate: SmartWKWebViewControllerDelegate?
     var toolbar: SmartWKWebViewToolbar!
     
     
@@ -174,6 +174,6 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     }
 }
 
-protocol SmartWKWebViewControllerDelegate {
+public protocol SmartWKWebViewControllerDelegate {
 	func didDismiss(viewController: SmartWKWebViewController)
 }
