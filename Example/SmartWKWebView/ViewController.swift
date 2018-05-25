@@ -9,7 +9,7 @@
 import UIKit
 import SmartWKWebView
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SmartWKWebViewControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +18,12 @@ class ViewController: UIViewController {
     @IBAction func eventOpenWebView(_ sender: Any) {
         let vc = SmartWKWebViewController()
         vc.url = URL(string: "http://www.google.com/en")
+        vc.delegate = self
         present(vc, animated: true)
+    }
+    
+    func didDismiss(viewController: SmartWKWebViewController) {
+        print("\(viewController) dismissed")
     }
 }
 
