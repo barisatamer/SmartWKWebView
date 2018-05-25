@@ -125,7 +125,7 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     private func dismiss() {
         OperationQueue.main.addOperation {
 			self.dismiss(animated: true, completion: {
-				self.delegate?.didDismiss(viewController: self)
+				self.delegate?.didDismiss?(viewController: self)
 			})
         }
     }
@@ -174,6 +174,6 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     }
 }
 
-public protocol SmartWKWebViewControllerDelegate {
-	func didDismiss(viewController: SmartWKWebViewController)
+@objc public protocol SmartWKWebViewControllerDelegate {
+	@objc optional func didDismiss(viewController: SmartWKWebViewController)
 }
