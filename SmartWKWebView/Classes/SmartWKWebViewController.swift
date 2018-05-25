@@ -122,7 +122,7 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
         dismiss()
     }
     
-    private func dismiss() {
+    override func dismiss() {
         OperationQueue.main.addOperation {
 			self.dismiss(animated: true, completion: {
 				self.delegate?.didDismiss?(viewController: self)

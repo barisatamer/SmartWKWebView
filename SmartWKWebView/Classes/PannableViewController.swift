@@ -61,10 +61,13 @@ public class PannableViewController: UIViewController {
                 y: self.view.frame.size.height
             )
         }) { (isCompleted) in
-            if isCompleted {
-                self.dismiss(animated: false, completion: nil)
-            }
+            guard isCompleted else { return }
+            self.dismiss()
         }
+    }
+    
+    func dismiss() {
+        self.dismiss(animated: false, completion: nil)
     }
     
     func animateToOriginalPosition() {
