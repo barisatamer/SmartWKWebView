@@ -15,7 +15,7 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     // MARK: - Public Variables
     
     public var barHeight: CGFloat = 44
-    public var topMargin: CGFloat = 20
+    public var topMargin: CGFloat = UIApplication.shared.statusBarFrame.size.height
     public var stringLoading = "Loading"
     public var url: URL!
     public var webView: WKWebView!
