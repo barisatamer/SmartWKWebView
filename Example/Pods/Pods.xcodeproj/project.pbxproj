@@ -55,29 +55,29 @@
 		465635740D440D036021C89FE69DC28F /* Pods-SmartWKWebView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartWKWebView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		48A69F9CAE5A5BC5C2B24016C9555D1E /* SmartWKWebViewToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartWKWebViewToolbar.swift; path = SmartWKWebView/Classes/SmartWKWebViewToolbar.swift; sourceTree = "<group>"; };
 		5771557AAE6A8B3492050FD6D7413384 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E55563E1C34D94FA778A0F438239E61 /* Pods_SmartWKWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartWKWebView_Tests.framework; path = "Pods-SmartWKWebView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E55563E1C34D94FA778A0F438239E61 /* Pods_SmartWKWebView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWKWebView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		643594C30E084A4DED7926554BEA7757 /* Pods-SmartWKWebView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartWKWebView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6635D47C1CD998918690BB2D1DC3C384 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		696F5730759AEF692B43D38BCE89CD7F /* SmartWKWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartWKWebView-dummy.m"; sourceTree = "<group>"; };
 		7016F7FACEF9C62E41AFDDB19C635131 /* SmartWKWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SmartWKWebViewController.swift; path = SmartWKWebView/Classes/SmartWKWebViewController.swift; sourceTree = "<group>"; };
 		7D2B25528FBCAE3929FEB48D87E0D3B9 /* Pods-SmartWKWebView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartWKWebView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7E7C42E00E1C5135BC49AA85BD720492 /* SmartWKWebView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SmartWKWebView.bundle; path = SmartWKWebView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7C42E00E1C5135BC49AA85BD720492 /* SmartWKWebView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartWKWebView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		841FB0689342A956C8EF9A4787F29D3E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SmartWKWebView/Assets/Assets.xcassets; sourceTree = "<group>"; };
 		8F8C57BEF5D957B8CF65CD4DF9680698 /* SmartWKWebView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartWKWebView-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D4A7537D0984B693D0FEEFA2D6F390 /* Pods-SmartWKWebView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartWKWebView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9DA30B3AD8DA7E63444C44F79FE2EE55 /* Pods-SmartWKWebView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartWKWebView_Tests-resources.sh"; sourceTree = "<group>"; };
 		AC8DFEF95A9EBC4DBB721B1B3BB79129 /* Pods-SmartWKWebView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartWKWebView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFFC99CA8795749228FBC2501A70FFA6 /* Pods_SmartWKWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartWKWebView_Example.framework; path = "Pods-SmartWKWebView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB2456D13BB0075567C8D747D0ACB96B /* SmartWKWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SmartWKWebView.modulemap; sourceTree = "<group>"; };
+		AFFC99CA8795749228FBC2501A70FFA6 /* Pods_SmartWKWebView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartWKWebView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB2456D13BB0075567C8D747D0ACB96B /* SmartWKWebView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SmartWKWebView.modulemap; sourceTree = "<group>"; };
 		CA29910224D3AB510B4449B89ECE1BD9 /* Pods-SmartWKWebView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartWKWebView_Example-resources.sh"; sourceTree = "<group>"; };
-		CAAA9AF78818CA5679B84DDB1E653A33 /* SmartWKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartWKWebView.framework; path = SmartWKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD653E6D8E60D7A3580D16EC7FCD23BC /* Pods-SmartWKWebView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartWKWebView_Example.modulemap"; sourceTree = "<group>"; };
+		CAAA9AF78818CA5679B84DDB1E653A33 /* SmartWKWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SmartWKWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD653E6D8E60D7A3580D16EC7FCD23BC /* Pods-SmartWKWebView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartWKWebView_Example.modulemap"; sourceTree = "<group>"; };
 		D56789399D5E5AE95C166CBF36F7F495 /* Pods-SmartWKWebView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartWKWebView_Example-umbrella.h"; sourceTree = "<group>"; };
 		D6971DAD248F4E3717B601B44A78DA76 /* PannableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PannableViewController.swift; path = SmartWKWebView/Classes/PannableViewController.swift; sourceTree = "<group>"; };
 		DF465E1DDF0AA664202F98135C66B4D0 /* Pods-SmartWKWebView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartWKWebView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F0FB6AB5A70D1ED46E674A2817E08815 /* Pods-SmartWKWebView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SmartWKWebView_Tests.modulemap"; sourceTree = "<group>"; };
+		F0FB6AB5A70D1ED46E674A2817E08815 /* Pods-SmartWKWebView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartWKWebView_Tests.modulemap"; sourceTree = "<group>"; };
 		F2DCDD036DE1C02E37B24B0059F0ACDE /* Pods-SmartWKWebView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartWKWebView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3E57F11D94001169EA0D26144EA9FF4 /* ResourceBundle-SmartWKWebView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SmartWKWebView-Info.plist"; sourceTree = "<group>"; };
 		FA9B4EC82ED0A4BDCC5D432F9FA33DF0 /* Pods-SmartWKWebView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartWKWebView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -354,14 +354,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					19CB119835DD20550A479DA2C4371B66 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
 			productRefGroup = C904B1889B51222054631E7D495D4D03 /* Products */;
@@ -474,7 +480,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -550,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -560,6 +567,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -567,6 +575,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -644,6 +653,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -654,6 +664,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -661,6 +672,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -691,6 +703,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -769,7 +782,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
