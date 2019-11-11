@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SmartWKWebView'
-  s.version          = '0.1.1'
-  s.summary          = 'A WKWebView modal to show web pages. Written in Swift'
+  s.version          = '0.1.2'
+  s.summary          = 'A WKWebView modal to show web pages. Swift 5.0'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
