@@ -69,7 +69,7 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
     func initToolbar() {
         toolbar = SmartWKWebViewToolbar.init(frame: CGRect(x: 0, y: topMargin, width: UIScreen.main.bounds.width, height: barHeight))
         view.addSubview(toolbar)
-        toolbar.closeButton.addTarget(self, action: #selector(closeTapped), for: UIControl.Events.touchUpInside)
+        toolbar.closeButton.addTarget(self, action: #selector(closeTapped), for: UIControl.Event.touchUpInside)
     }
     
     func initWebView() {
