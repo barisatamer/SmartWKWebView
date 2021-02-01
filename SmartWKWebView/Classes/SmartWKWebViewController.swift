@@ -88,6 +88,19 @@ public class SmartWKWebViewController: PannableViewController, WKNavigationDeleg
         
         toolbar.addressLabel.text = url?.absoluteString ?? ""
         toolbar.titleLabel.text = stringLoading
+	    
+	if #available(iOS 13.0, *) {
+            toolbar.titleLabel.textColor =  UIColor { tc in
+                switch tc.userInterfaceStyle {
+                case .dark:
+                    return UIColor.black
+                default:
+                    return UIColor.black
+                }
+            }
+        } else {
+            // Fallback on earlier versions
+        }
         
         if let URL = url {
             let urlRequest = URLRequest.init(url: URL)
